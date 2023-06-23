@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zinedine Zidane</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+    body {
+        background-image:url("https://static.vecteezy.com/system/resources/previews/010/994/307/original/real-madrid-logo-symbol-black-and-white-design-spain-football-european-countries-football-teams-illustration-free-vector.jpg");
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    </style>
+</head>
+<body>
+
+    <h2>Image Maps</h2>
+    <p> Click on the soccer ball and the player to execute a 
+        JavaScript function.
+    </p>
+    <p>
+        You will see that programming is nice!
+    </p>
+
+<img src="https://digitalhub.fifa.com/transform/0b9c40b3-30fd-40e3-b89b-81df908207bd/Zinedine-Zidane-voleys-the-ball-in-the-2002-Champions-League-final-v-Leverkusen?io=transform:fill,height:455,width:768&quality=100" 
+alt="Zidane in 2002 Champions League final" 
+style="width:800px;height:500px;"
+usemap="#soccer">
+
+<map name="soccer">
+    <area shape="circle" 
+    coords="330,330,50" 
+    alt="soccer ball" 
+    href="https://www.fifa.com/fifaplus/en/articles/twenty-years-ago-today-zizous-stroke-of-genius" target="_blank"
+    onclick="clickBall()">
+    
+    <area shape="rect" 
+    coords="500,100,750,500"
+    alt="Best player of all times!"
+    href="https://en.wikipedia.org/wiki/Zinedine_Zidane" target="_blank"
+    onclick="clickPlayer()">
+</map>
+
+<script>
+    function clickBall() {
+        alert("Good job Maia! You clicked the soccer ball!")
+    };
+    function clickPlayer() {
+        alert("Amazing Maia! You clicked Zinedine Zidane!")
+    };
+
+</script>
+
+</body>
+</html>
